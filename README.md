@@ -45,12 +45,12 @@ Long Shadow Function is a function in PHP to generate long shadows both for typo
 
 Usage:
 
-<?php // FUNCTION'S DECLARATION ?>
+	// FUNCTION'S DECLARATION
         
-<?php include 'functions.php'; ?>
+	include 'functions.php';
         
-<?php // USAGE ?>
+	// USAGE
         
-<div style="<?php text_shadow( $length, $color ); ?>">Lorem Ipsum</div>
+	<div style="<?php text_shadow( $length, $color ); ?>">Lorem Ipsum</div>
 		
-<div style="<?php box_shadow( $length, $color ); ?>"></div>
+	<div style="<?php box_shadow( $length, $color ); ?>"></div>
