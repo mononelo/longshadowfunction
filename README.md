@@ -4,6 +4,8 @@ longshadowfunction
 Long Shadow Function is a function in PHP to generate long shadows both for typography and boxes.
 
 
+	<?php
+	
 	// TEXT SHADOW
 	
 	function text_shadow( $total, $color ){
@@ -41,15 +43,21 @@ Long Shadow Function is a function in PHP to generate long shadows both for typo
 		}
 		echo $bs;
 	}
+	
+	?>
 
 
 Usage:
 
+	<?php
+	
 	// FUNCTION'S DECLARATION
         
 	include 'functions.php';
         
 	// USAGE
+	
+	?>
         
 	<div style="<?php text_shadow( $length, $color ); ?>">Lorem Ipsum</div>
 		
