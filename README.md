@@ -2,7 +2,7 @@ Long Shadow Function
 ====================
 
 Long Shadow Function is a function in PHP to generate long shadows both for typography and boxes.
-You can check all the infomation at longshadowfunction.com
+You can check all the infomation at <a href="http://longshadowfunction.com" target="_blank">longshadowfunction.com</a>
 
 
 	<?php
