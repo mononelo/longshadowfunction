@@ -49,14 +49,10 @@ Long Shadow Function is a function in PHP to generate long shadows both for typo
 
 Usage:
 
-	<?php
-	
-	// FUNCTION'S DECLARATION
+	<?php // FUNCTION'S DECLARATION
         
 	include 'functions.php';
         
-	// USAGE
-	
 	?>
         
 	<div style="<?php text_shadow( $length, $color ); ?>">Lorem Ipsum</div>
